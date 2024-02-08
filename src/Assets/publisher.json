@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "label": "Penguin Random House"
+    },
+    {
+        "id": 2,
+        "label": "Hachette Livre"
+    },
+    {
+        "id": 3,
+        "label": "Scholastic"
+    },
+    {
+        "id": 4,
+        "label": "Simon And Schuster"
+    },
+    {
+        "id": 5,
+        "label": "Wiley"
+    },
+    {
+        "id": 6,
+        "label": "Chronicle Books"
+    },
+    {
+        "id": 7,
+        "label": "HarperCollins"
+    },
+    {
+        "id": 8,
+        "label": "Macmillan"
+    },
+    {
+        "id": 9,
+        "label": "AST publishing Group"
+    },
+    {
+        "id": 10,
+        "label": "MIT Press"
+    },
+    {
+        "id": 11,
+        "label": "Rupa publications"
+    },
+    {
+        "id": 12,
+        "label": "Akashic Books"
+    },
+    {
+        "id": 13,
+        "label": "Bella Books"
+    },
+    {
+        "id": 14,
+        "label": "Bloomsbury Publishing"
+    },
+    {
+        "id": 15,
+        "label": "Entangled Publishing"
+    },
+    {
+        "id": 16,
+        "label": "HarperCollins Publishers India"
+    },
+    {
+        "id": 17,
+        "label": "Houghton Mifflin Harcourt"
+    },
+    {
+        "id": 18,
+        "label": "Macmillan Publishers"
+    },
+    {
+        "id": 19,
+        "label": "Oneworld publishing"
+    },
+    {
+        "id": 20,
+        "label": "Pearson"
+    },
+    {
+        "id": 21,
+        "label": "APK Publishers"
+    },
+    {
+        "id": 22,
+        "label": "Abrams publishing"
+    },
+    {
+        "id": 23,
+        "label": "Alchemy Publishers"
+    },
+    {
+        "id": 24,
+        "label": "Penguin Random House Ind"
+    }
+]

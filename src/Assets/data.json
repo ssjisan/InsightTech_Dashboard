@@ -1,0 +1,102 @@
+[
+  {
+   "book_id": "B0001",
+   "book_name": "Working Effectively with Legacy Code",
+   "book_category": "Programming",
+   "book_writer": "Michael Feathers",
+   "book_publisher": "Pearson",
+   "book_stock": 150,
+   "purchase_price": 350,
+   "sell_price": 420
+  },
+  {
+   "book_id": "B0002",
+   "book_name": "The Clean Coder",
+   "book_category": "Programming",
+   "book_writer": "Martin Luther",
+   "book_publisher": "Pearson Education India\t",
+   "book_stock": 85,
+   "purchase_price": 220,
+   "sell_price": 300
+  },
+  {
+   "book_id": "B0003",
+   "book_name": "Code Complete",
+   "book_category": "Programming",
+   "book_writer": "Steve Mcconnell\t",
+   "book_publisher": "Microsoft Press US\t",
+   "book_stock": 120,
+   "purchase_price": 180,
+   "sell_price": 250
+  },
+  {
+   "book_id": "B0004",
+   "book_name": "The Pragmatic Programmer",
+   "book_category": "Programming",
+   "book_writer": "David Thomas\t",
+   "book_publisher": "Addison-Wesley\t",
+   "book_stock": 90,
+   "purchase_price": 240,
+   "sell_price": 320
+  },
+  {
+   "book_id": "B0005",
+   "book_name": "Soft Skills",
+   "book_category": "Programming",
+   "book_writer": "John Sonmez\t",
+   "book_publisher": "‎Manning Publications\t",
+   "book_stock": 176,
+   "purchase_price": 300,
+   "sell_price": 380
+  },
+  {
+   "book_id": "B0006",
+   "book_name": "Domain-Driven Design",
+   "book_category": "Programming",
+   "book_writer": "Eric Evans",
+   "book_publisher": "Addison-Wesley",
+   "book_stock": 80,
+   "purchase_price": 320,
+   "sell_price": 420
+  },
+  {
+   "book_id": "B0007",
+   "book_name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+   "book_category": "Programming",
+   "book_writer": "Erich Gamma",
+   "book_publisher": "Addison Wesley",
+   "book_stock": 100,
+   "purchase_price": 270,
+   "sell_price": 290
+  },
+  {
+   "book_id": "B0008",
+   "book_name": "Head First Design Patterns",
+   "book_category": "Programming",
+   "book_writer": "Elisabeth Freeman",
+   "book_publisher": "O′Reilly",
+   "book_stock": 90,
+   "purchase_price": 150,
+   "sell_price": 190
+  },
+  {
+   "book_id": "B0009",
+   "book_name": "User Stories Applied: For Agile Software Development",
+   "book_category": "Programming",
+   "book_writer": "Mike Cohn",
+   "book_publisher": "IT Revolution Press",
+   "book_stock": 50,
+   "purchase_price": 120,
+   "sell_price": 180
+  },
+  {
+   "book_id": "B0010",
+   "book_name": "Artificial Intelligence For Dummies",
+   "book_category": "Programming",
+   "book_writer": "John Paul Mueller",
+   "book_publisher": "Wiley ",
+   "book_stock": 40,
+   "purchase_price": 390,
+   "sell_price": 450
+  }
+ ]

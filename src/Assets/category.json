@@ -1,0 +1,62 @@
+[
+    {
+        "id": "CTC0001",
+        "label": "Romance"
+    },
+    {
+        "id": "CTC0002",
+        "label": "Fiction"
+    },
+    {
+        "id": "CTC0003",
+        "label": "Fantasy"
+    },
+    {
+        "id": "CTC0004",
+        "label": "Science-fiction"
+    },
+    {
+        "id": "CTC0005",
+        "label": "Non-fiction"
+    },
+    {
+        "id": "CTC0006",
+        "label": "Biography"
+    },
+    {
+        "id": "CTC0007",
+        "label": "History"
+    },
+    {
+        "id": "CTC0008",
+        "label": "Covers"
+    },
+    {
+        "id": "CTC0009",
+        "label": "Mystery"
+    },
+    {
+        "id": "CTC0010",
+        "label": "Horror"
+    },
+    {
+        "id": "CTC0011",
+        "label": "Historical-fiction"
+    },
+    {
+        "id": "CTC0012",
+        "label": "Paranormal"
+    },
+    {
+        "id": "CTC0013",
+        "label": "Love"
+    },
+    {
+        "id": "CTC0014",
+        "label": "Historical-romance"
+    },
+    {
+        "id": "CTC0015",
+        "label": "Thriller"
+    }
+]

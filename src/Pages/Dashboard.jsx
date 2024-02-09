@@ -1,9 +1,5 @@
-import { Box, Grid, Toolbar, Typography } from "@mui/material";
+import { Box, Toolbar, Typography } from "@mui/material";
 import Sidebar from "../Layout/Sidebar/Sidebar";
-import StateCard from "../Components/Dashboard/StateCard";
-//eslint-disable-next-line
-import RadialChart from "../Components/Dashboard/RadialChart";
-
 export default function Dashboard() {
   const drawerWidth = 280;
 
@@ -21,16 +17,9 @@ export default function Dashboard() {
         <Toolbar />
         <Box sx={{ paddingBottom: "20px" }}>
           <Box sx={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-            <Typography variant="h2">Dashboard</Typography>
-            <Typography variant="body3" color="text.primary">Home</Typography>
+            <Typography variant="h2" color="text.priamry">Welcome, to InsightTech Bangladesh portal</Typography>
           </Box>
         </Box>
-        {/* <StateCard /> */}
-        <Grid container sx={{ mt: "40px" }}>
-          <Grid item xs={12} lg={3}>
-            <RadialChart />
-          </Grid>
-        </Grid>
       </Box>
     </Box>
   );

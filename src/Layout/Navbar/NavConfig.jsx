@@ -1,4 +1,4 @@
-import { BookList, Dashboard } from "../../Assets/Icons";
+import {  Dashboard, ProjectRequest } from "../../Assets/Icons";
 
 
 const navConfig = [
@@ -10,9 +10,9 @@ const navConfig = [
   },
   {
     id: 2,
-    title: "Book List",
-    link: "/book_list",
-    icon: <BookList />,
+    title: "Project Request",
+    link: "/project_request",
+    icon: <ProjectRequest />,
   }
 ];
 

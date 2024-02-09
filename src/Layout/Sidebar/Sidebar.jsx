@@ -57,7 +57,7 @@ function Sidebar(props) {
                                         width: "100%",
                                         padding: "8px 16px",
                                         height: "44px",
-                                        color: pathname === item.link ? "#00AE60" : "#B0AEC3",
+                                        color: pathname === item.link ? "#00AE60" : "#918EAF",
                                     }}
                                 >
                                     <ListItemIcon

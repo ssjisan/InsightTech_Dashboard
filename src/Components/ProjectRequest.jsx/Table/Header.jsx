@@ -21,16 +21,16 @@ export default function Header() {
   return (
     <TableHead sx={{ borderRadius: "1em 0 0 1em" }}>
       <TableRow>
-        <StyledTableCell align="center">Code</StyledTableCell>
         <StyledTableCell align="left">Name</StyledTableCell>
-        <StyledTableCell align="center">Category</StyledTableCell>
-        <StyledTableCell align="center">Writer</StyledTableCell>
-        <StyledTableCell align="center">Publisher</StyledTableCell>
-        <StyledTableCell align="center">Stock</StyledTableCell>
-        <StyledTableCell align="center">Purchase</StyledTableCell>
-        <StyledTableCell align="center">Sell Price</StyledTableCell>
+        <StyledTableCell align="left">Email</StyledTableCell>
+        <StyledTableCell align="center">Phone</StyledTableCell>
+        <StyledTableCell align="center">Position</StyledTableCell>
+        <StyledTableCell align="center">Budget</StyledTableCell>
+        <StyledTableCell align="center">Service</StyledTableCell>
+        <StyledTableCell align="center">Project Brief</StyledTableCell>
         <StyledTableCell align="center"></StyledTableCell>
       </TableRow>
     </TableHead>
   );
 }
+

@@ -1,4 +1,4 @@
-import { AddBook, BookList, Dashboard, Invoice } from "../../Assets/Icons";
+import { BookList, Dashboard } from "../../Assets/Icons";
 
 
 const navConfig = [
@@ -13,18 +13,6 @@ const navConfig = [
     title: "Book List",
     link: "/book_list",
     icon: <BookList />,
-  },
-  {
-    id: 3,
-    title: "Add Book",
-    link: "/add_book",
-    icon: <AddBook />,
-  },
-  {
-    id: 4,
-    title: "Invoice Log",
-    link: "/invoice",
-    icon: <Invoice />,
   }
 ];
 

@@ -41,11 +41,11 @@ export const Dashboard = () => {
 
     return (
         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.1667 7.58081V3.87748C20.1667 2.41998 19.58 1.83331 18.1225 1.83331H14.4192C12.9617 1.83331 12.375 2.41998 12.375 3.87748V7.58081C12.375 9.03831 12.9617 9.62498 14.4192 9.62498H18.1225C19.58 9.62498 20.1667 9.03831 20.1667 7.58081Z" stroke={pathname === "/dashboard" ? "#FFF" : "#918EAF"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M9.62516 7.80998V3.64831C9.62516 2.35581 9.0385 1.83331 7.581 1.83331H3.87766C2.42016 1.83331 1.8335 2.35581 1.8335 3.64831V7.80081C1.8335 9.10248 2.42016 9.61581 3.87766 9.61581H7.581C9.0385 9.62498 9.62516 9.10248 9.62516 7.80998Z" stroke={pathname === "/dashboard" ? "#FFF" : "#918EAF"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M9.62516 18.1225V14.4192C9.62516 12.9617 9.0385 12.375 7.581 12.375H3.87766C2.42016 12.375 1.8335 12.9617 1.8335 14.4192V18.1225C1.8335 19.58 2.42016 20.1667 3.87766 20.1667H7.581C9.0385 20.1667 9.62516 19.58 9.62516 18.1225Z" stroke={pathname === "/dashboard" ? "#FFF" : "#918EAF"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M13.75 14.2083H19.25" stroke={pathname === "/dashboard" ? "#FFF" : "#918EAF"} strokeWidth="1.5" strokeLinecap="round" />
-            <path d="M13.75 17.875H19.25" stroke={pathname === "/dashboard" ? "#FFF" : "#918EAF"} strokeWidth="1.5" strokeLinecap="round" />
+            <path d="M20.1667 7.58081V3.87748C20.1667 2.41998 19.58 1.83331 18.1225 1.83331H14.4192C12.9617 1.83331 12.375 2.41998 12.375 3.87748V7.58081C12.375 9.03831 12.9617 9.62498 14.4192 9.62498H18.1225C19.58 9.62498 20.1667 9.03831 20.1667 7.58081Z" stroke={pathname === "/" ? "#00AE60" : "#B0AEC3"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M9.62516 7.80998V3.64831C9.62516 2.35581 9.0385 1.83331 7.581 1.83331H3.87766C2.42016 1.83331 1.8335 2.35581 1.8335 3.64831V7.80081C1.8335 9.10248 2.42016 9.61581 3.87766 9.61581H7.581C9.0385 9.62498 9.62516 9.10248 9.62516 7.80998Z" stroke={pathname === "/" ? "#00AE60" : "#B0AEC3"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M9.62516 18.1225V14.4192C9.62516 12.9617 9.0385 12.375 7.581 12.375H3.87766C2.42016 12.375 1.8335 12.9617 1.8335 14.4192V18.1225C1.8335 19.58 2.42016 20.1667 3.87766 20.1667H7.581C9.0385 20.1667 9.62516 19.58 9.62516 18.1225Z" stroke={pathname === "/" ? "#00AE60" : "#B0AEC3"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13.75 14.2083H19.25" stroke={pathname === "/" ? "#00AE60" : "#B0AEC3"} strokeWidth="1.5" strokeLinecap="round" />
+            <path d="M13.75 17.875H19.25" stroke={pathname === "/" ? "#00AE60" : "#B0AEC3"} strokeWidth="1.5" strokeLinecap="round" />
         </svg>
     );
 };
@@ -346,3 +346,13 @@ export const More = () => {
     );
 }
 
+
+
+export const BurgerMenu = () => {
+    return (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="8" width="12" height="2" rx="1" fill="#060415" />
+            <rect x="3" y="13" width="18" height="2" rx="1" fill="#060415" />
+        </svg>
+    )
+}

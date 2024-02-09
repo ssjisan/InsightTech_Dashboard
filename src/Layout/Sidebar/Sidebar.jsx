@@ -6,7 +6,7 @@ import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import { navConfig } from "../Navbar/NavConfig";
-import {  ListItem, ListItemButton, Typography } from "@mui/material";
+import { ListItem, ListItemButton, Typography } from "@mui/material";
 import Navbar from "../Navbar/Navbar";
 import { Logo } from "../../Assets/Logo";
 const drawerWidth = 280;
@@ -41,11 +41,11 @@ function Sidebar(props) {
                                 key={item.id}
                                 disablePadding
                                 sx={{
-                                    background: pathname === item.link && "#00AE60",
+                                    background: pathname === item.link && "rgba(0 ,174, 96, 0.08)",
                                     borderRadius: "8px",
                                     width: "100%",
                                     height: "44px",
-                                    mb: "8px",
+                                    mb: "4px",
                                     display: "flex"
                                 }}
                             >
@@ -57,7 +57,7 @@ function Sidebar(props) {
                                         width: "100%",
                                         padding: "8px 16px",
                                         height: "44px",
-                                        color: pathname === item.link ? "#FFF" : "#918EAF",
+                                        color: pathname === item.link ? "#00AE60" : "#B0AEC3",
                                     }}
                                 >
                                     <ListItemIcon

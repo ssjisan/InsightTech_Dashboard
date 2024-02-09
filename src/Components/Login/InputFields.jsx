@@ -4,7 +4,7 @@ import { EyeOff, EyeOn } from "../../Assets/Icons";
 import { DataContext } from "../../DataProcessing/DataProcessing";
 
 export default function InputFields() {
-    const { email, password, showPassword, handleClickShowPassword, handleMouseDownPassword, handleLogin, setPassword, setEmail } = useContext(DataContext)
+    const { showPassword, handleClickShowPassword, handleMouseDownPassword, handleLogin, handleLoginDetails, loginDetails } = useContext(DataContext)
 
     return (
         <Box sx={{ display: "flex", flexDirection: "column", gap: "20px", width: "100%", mt: "40px", mb: "160px" }}>
@@ -12,15 +12,16 @@ export default function InputFields() {
                 label="Your Email"
                 variant="outlined"
                 type="email"
-                value={email}
+                value={loginDetails.email}
                 fullWidth
-                onChange={(e) => setEmail(e.target.value)} />
+                onChange={handleLoginDetails} />
             <FormControl sx={{}} variant="outlined">
                 <InputLabel htmlFor="outlined-adornment-password">Password</InputLabel>
                 <OutlinedInput
+                    id="password"
                     type={showPassword ? 'text' : 'password'}
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
+                    value={loginDetails.password}
+                    onChange={handleLoginDetails}
                     endAdornment={
                         <InputAdornment position="end">
                             <IconButton

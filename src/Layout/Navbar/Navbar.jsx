@@ -6,6 +6,7 @@ import {
     useMediaQuery,
 } from "@mui/material";
 import AccountPopOver from "./AccountPopOver";
+import { BurgerMenu } from "../../Assets/Icons";
 
 const drawerWidth = 280;
 // eslint-disable-next-line
@@ -19,6 +20,7 @@ export default function Navbar({ handleDrawerToggle }) {
             sx={{
                 width: { lg: `calc(100% - ${drawerWidth}px)` },
                 ml: { lg: `${drawerWidth}px` },
+                
             }}
             style={{
                 backgroundColor: "rgba(255, 255, 255, 1)",
@@ -34,7 +36,7 @@ export default function Navbar({ handleDrawerToggle }) {
                     onClick={handleDrawerToggle}
                     sx={{ mr: 2, display: { lg: "none" } }}
                 >
-                    A
+                    <BurgerMenu />
                 </IconButton>
                 <Box
                     sx={{

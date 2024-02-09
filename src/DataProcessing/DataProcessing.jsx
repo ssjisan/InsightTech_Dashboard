@@ -5,12 +5,12 @@ import LoginForm from "./Components/LoginForm";
 export const DataContext = createContext();
 
 export default function DataProcessing({ children }) {
-    const { email, password, showPassword, handleClickShowPassword, handleMouseDownPassword, handleLogin, setPassword, setEmail, isUserLoggedIn,setIsUserLoggedIn } = LoginForm();
+    const { showPassword, handleClickShowPassword, handleMouseDownPassword, handleLogin, isUserLoggedIn, setIsUserLoggedIn, handleLoginDetails, loginDetails } = LoginForm();
     return (
         <DataContext.Provider
             value={{
                 //Login Form Data Pass
-                email, password, showPassword, handleClickShowPassword, handleMouseDownPassword, handleLogin, setPassword, setEmail, isUserLoggedIn,setIsUserLoggedIn
+                showPassword, handleClickShowPassword, handleMouseDownPassword, handleLogin, isUserLoggedIn, setIsUserLoggedIn, handleLoginDetails, loginDetails
             }}
         >
             {children}

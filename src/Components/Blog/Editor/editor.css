@@ -1,0 +1,32 @@
+.tox:not(.tox-tinymce-inline) .tox-editor-header {
+    box-shadow: none !important;
+}
+
+.tox-tinymce {
+    border: 2px solid #919EAB !important;
+    border-radius: 3px !important;
+}
+
+.tox .tox-edit-area__iframe {
+    background-color: #ffffff !important;
+}
+
+.tox .tox-editor-header>.tox-toolbar--scrolling,
+.tox .tox-toolbar-overlord .tox-toolbar--scrolling:first-child {
+    background-color: #ffffff !important;
+}
+
+.tox:not(.tox-tinymce-inline) .tox-editor-header {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #919EAB !important;
+
+}
+
+.tox .tox-toolbar-overlord .tox-toolbar:not(.tox-toolbar--scrolling):first-child,
+.tox .tox-toolbar-overlord .tox-toolbar__primary {
+    background-color: #ffffff !important;
+}
+
+.tox .tox-tbtn svg {
+    fill: #495163 !important;
+}

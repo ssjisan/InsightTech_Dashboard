@@ -2,11 +2,13 @@ import { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../../UserAuth/firebase';
 
+
 export default function LoginForm() {
     const [isUserLoggedIn, setIsUserLoggedIn] = useState(() => {
         // Initialize state from local storage, default to false if not found
         return localStorage.getItem('isUserLoggedIn') === 'true';
     });
+
     //eslint-disable-next-line
     const [showPassword, setShowPassword] = useState(false);
     const handleClickShowPassword = () => {
@@ -31,7 +33,7 @@ export default function LoginForm() {
             await signInWithEmailAndPassword(auth, loginDetails.email, loginDetails.password);
             alert('Logged in successfully!');
             localStorage.setItem('isUserLoggedIn', 'true');
-            setIsUserLoggedIn(true)
+            setIsUserLoggedIn(true);
         } catch (error) {
             alert('Error logging in:', error);
         }

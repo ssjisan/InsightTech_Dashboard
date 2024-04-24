@@ -1,8 +1,8 @@
-import { Box, Table, TableContainer, Typography } from "@mui/material";
+import { Box, Table, TableContainer } from "@mui/material";
 import Header from "./Table/Header";
 import Body from "./Table/Body";
 import Pagination from "./Table/Pagination";
-export default function ProjectRequestTable() {
+export default function ScheduleMeetingTable() {
     return (
         <Box
             sx={{
@@ -14,9 +14,6 @@ export default function ProjectRequestTable() {
             }}
         >
             <TableContainer>
-                <Box sx={{ padding: "8px 24px", height: "64px" }}>
-                    <Typography variant="h5">Project Requests</Typography>
-                </Box>
                 <Table>
                     <Header />
                     <Body />

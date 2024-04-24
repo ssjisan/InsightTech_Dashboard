@@ -1,24 +1,24 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-export default function ProjectRequestData() {
-  const [allRequests, setAllRequests] = useState([]);
-  const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = useState(5);
+export default function ScheduleMeetingData() {
+  const [allScheduleMeeting, setAllScheduleMeeting] = useState([]);
+  const [schedulePage, setSchedulePage] = useState(0);
+  const [scheduleRowsPerPage, setScheduleRowsPerPage] = useState(10);
 
-  const handleChangePage = (event, newPage) => {
-    setPage(newPage);
+  const handleSchedulePageChange = (event, newPage) => {
+    setSchedulePage(newPage);
   };
 
-  const handleChangeRowsPerPage = (event) => {
-    setRowsPerPage(+event.target.value);
-    setPage(0);
+  const handleScheduleRowsPerPage = (event) => {
+    setScheduleRowsPerPage(+event.target.value);
+    setSchedulePage(0);
   };
   useEffect(() => {
     // Fetch data from Firebase Realtime Database
     axios
       .get(
-        "https://insighttechbd-2c31b-default-rtdb.firebaseio.com/ClientRequest.json"
+        "https://insighttechbd-d4ca9-default-rtdb.firebaseio.com/MeetingResuest.json"
       )
       .then((response) => {
         // Process retrieved data
@@ -26,24 +26,24 @@ export default function ProjectRequestData() {
         const requestsArray = Object.keys(requestData).map((key) => {
           return { id: key, ...requestData[key] };
         });
-        setAllRequests(requestsArray);
+        setAllScheduleMeeting(requestsArray);
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
   }, []);
-  console.log(allRequests);
+  console.log(allScheduleMeeting);
 
-  const handleRemoveRequest = (id) => {
+  const handleScheduleRemoveRequest = (id) => {
     // Make a DELETE request to Firebase to remove the item
     axios
       .delete(
-        `https://insighttechbd-2c31b-default-rtdb.firebaseio.com/ClientRequest/${id}.json`
+        `https://insighttechbd-d4ca9-default-rtdb.firebaseio.com/MeetingResuest/${id}.json`
       )
       .then(() => {
         console.log("Request removed successfully");
         // Update clientRequests state after successful deletion
-        setAllRequests((prevState) =>
+        setAllScheduleMeeting((prevState) =>
           prevState.filter((request) => request.id !== id)
         );
       })
@@ -53,11 +53,11 @@ export default function ProjectRequestData() {
   };
   // productLength={product.length} handleChangePage={handleChangePage} handleChangeRowsPerPage={handleChangeRowsPerPage} page={page} rowsPerPage={rowsPerPage}
   return {
-    allRequests,
-    handleChangePage,
-    handleChangeRowsPerPage,
-    page,
-    rowsPerPage,
-    handleRemoveRequest,
+    allScheduleMeeting,
+    handleSchedulePageChange,
+    handleScheduleRowsPerPage,
+    schedulePage,
+    scheduleRowsPerPage,
+    handleScheduleRemoveRequest,
   };
 }

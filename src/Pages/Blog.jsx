@@ -1,10 +1,10 @@
 import { Box, Toolbar, Typography } from "@mui/material";
 import Sidebar from "../Layout/Sidebar/Sidebar";
-import ProjectRequestTable from "../Components/ProjectRequest/ProjectRequestTable";
+import EditorBody from "../Components/Blog/Editor/EditorBody";
+import BlogEditor from "../Components/Blog/BlogEditor";
 
-export default function ProjectRequest() {
+export default function Blog() {
     const drawerWidth = 280;
-
     return (
         <Box>
             <Sidebar />
@@ -19,10 +19,11 @@ export default function ProjectRequest() {
                 <Toolbar />
                 <Box sx={{ paddingBottom: "20px" }}>
                     <Box sx={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-                        <Typography variant="h2" color="text.priamry">Project Requests</Typography>
+                        <Typography variant="h2" color="text.priamry">Write a Blog</Typography>
                     </Box>
+                    {/* <EditorBody /> */}
+                    <BlogEditor/>
                 </Box>
-                <ProjectRequestTable />
             </Box>
         </Box>
     )
